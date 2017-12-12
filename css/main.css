@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Agane_45_light";
+  src: url("fonts/Agane_45_light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_55_roman";
+  src: url("fonts/Agane_55_roman.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_55_romansign";
+  src: url("fonts/Agane_55_romansign.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_65_Bold";
+  src: url("fonts/Agane_65_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_65_Bold_sign";
+  src: url("fonts/Agane_65_Bold_sign.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_75_Extra_Bold";
+  src: url("fonts/Agane_75_Extra Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Agane_75_Extra_Bold";
+  src: url("fonts/Agane_75_Extra_Bold_sign.ttf") format("truetype");
+}
+body {
+	font-family: "Agane_55_roman";
+	color: #ffffff;
+}
+.index-body {
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	background-repeat:   no-repeat;
+	overflow-x: hidden;
+}
+nav {
+	background-image: inherit;
+	font-size: 14px;
+	font-kerning: 8px;
+	color: #ffffff
+
+}
+.about-nav {
+	color: #000000;
+}
+.nav-ul {
+	list-style: none;
+}
+.image-holder {
+	height: calc(100vh - 62px);
+}
+.links{
+	margin-left: 100px;
+}
+a {
+	color: inherit;
+}
+.tagline {
+		font-size: 80px;
+		position: absolute;
+		top: calc(60vh/2);
+		left: 100px;
+	}
+.tagline2 {
+	font-size: 120px;
+	position: absolute;
+	top: calc(60vh/2 + 50px);
+	left: 95px;
+}
+.about-pic {
+	max-width: 100%;
+}
+.about-content {
+	color: #000000;
+}
+
