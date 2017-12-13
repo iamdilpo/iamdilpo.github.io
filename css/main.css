@@ -31,7 +31,7 @@ body {
 	color: #ffffff;
 }
 .index-body {
-	background-image: url("../img/1.jpg");
+	background-image: url("../img/2.jpg");
 	background-size: cover;
 	background-repeat:   no-repeat;
 	overflow-x: hidden;
@@ -67,7 +67,7 @@ a {
 .tagline2 {
 	font-size: 120px;
 	position: absolute;
-	top: calc(60vh/2 + 50px);
+	top: calc(60vh/2 + 80px);
 	left: 95px;
 }
 .about-pic {
